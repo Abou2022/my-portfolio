@@ -10,7 +10,7 @@ header{
 }
 h3{
     font-family: 'Times New Roman', Times, serif;
-    background: goldenrod;
+    /* background: goldenrod; */
 }
 .navigate{
     display: flex;
@@ -84,5 +84,15 @@ footer{
     font-size: x-large;
   }
  
-
+  @media screen and (max-width: 992px) {
+    body {
+      background: greenyellow;
+    }
+  }
   
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: gold;
+    }
+  }
