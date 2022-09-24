@@ -1,100 +1,97 @@
-
-header{
-    padding: 2rem;
-    background-image: linear-gradient(to right, gold , greenyellow);
-    /* background: gold; */
-    margin: 2rem;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    flex-direction: row;
+header {
+  padding: 2rem;
+  background-image: linear-gradient(to right, rgb(245, 239, 205), greenyellow);
+  /* background: gold; */
+  margin: 2rem;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: row;
 }
-h3{
-    font-family: 'Times New Roman', Times, serif;
-    /* background: goldenrod; */
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  /* background: goldenrod; */
 }
-.navigate{
-    display: flex;
-    float: right;
-    padding: 2px;
-    flex-direction: row;
+.navigate {
+  display: flex;
+  float: right;
+  padding: 2px;
+  flex-direction: row;
 }
-.buttons{
-   display: inline;
-   padding: 5px;
+.buttons {
+  display: inline;
+  padding: 5px;
 }
-.works{
-    
-    margin: 10px;
-    padding: 0;
+.works {
+  margin: 10px;
+  padding: 0;
 }
 
-main{
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    background: goldenrod;
-    flex-wrap: wrap;
-    margin: 5rem;
-    /* margin-left: 25%; */
+main {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background: goldenrod;
+  flex-wrap: wrap;
+  margin: 5rem;
+  /* margin-left: 25%; */
 }
 .card-group {
-    display: flex;
-    justify-content: space-around;
-    /* width: 500px;
+  display: flex;
+  justify-content: space-around;
+  /* width: 500px;
     height: 500px; */
-    flex-wrap: wrap;
-    padding-left: 6rem;
-    /* width: 75%;
+  flex-wrap: wrap;
+  padding-left: 6rem;
+  /* width: 75%;
     align-items:flex-start; */
 }
-.card{
-    margin: 2rem;
-    float:right;
-   width: 30rem;
-   flex-wrap: wrap;
-   justify-content: center;
-   background: greenyellow;
-   
+.card {
+  margin: 2rem;
+  float: right;
+  width: 30rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: greenyellow;
 }
-.about{
-   background: white;
+.about {
+  background: white;
 }
-section{
-    background: white;
-    width: 100%;
+section {
+  background: white;
+  width: 100%;
 }
-article{
-    background: white;
-    width: 100%;
-    background: yellowgreen;
-    margin: 2rem;
+article {
+  background: white;
+  width: 100%;
+  background: yellowgreen;
+  margin: 2rem;
 }
-footer{
-    padding: 2rem;
-    background-image: linear-gradient(to right, gold , greenyellow);
-    margin: 2rem;
-    display: flexbox;
+footer {
+  padding: 2rem;
+  background-image: linear-gradient(to right, gold, greenyellow);
+  margin: 2rem;
+  display: flexbox;
 }
 .contact-info a {
-    display: inline;
-    justify-content:sp;
-    align-items: center;
-    text-align: center;
-    color: rgb(43, 42, 42);
-    margin: 50px;
-    font-size: x-large;
+  display: inline;
+  justify-content: sp;
+  align-items: center;
+  text-align: center;
+  color: rgb(43, 42, 42);
+  margin: 50px;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background: greenyellow;
   }
- 
-  @media screen and (max-width: 992px) {
-    body {
-      background: greenyellow;
-    }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: gold;
   }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    body {
-      background-color: gold;
-    }
-  }
+}
